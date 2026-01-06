@@ -1,10 +1,10 @@
 ---
-author:
-  name: "Felipe Monteiro"
-  title: "Economist | Senior Data Analyst"
-  focus: ["Finance Analytics", "Data Products"]
-  location: "Brazil (Remote)"
-  github: "https://github.com/FMPING"
+Author:
+  Name: "Felipe Monteiro"
+  Title: "Economist | Senior Data Analyst"
+  Focus: ["Finance Analytics", "Data Products"]
+  Location: "Brazil (Remote)"
+  Github: "https://github.com/FMPING"
 ---
 
 # Revenue Reconciliation & Leakage Engine
