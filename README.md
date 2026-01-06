@@ -2,7 +2,7 @@
 author:
   name: "Felipe Monteiro"
   title: "Economist | Senior Data Analyst"
-  focus: ["Finance Analytics", "RevOps", "Revenue Reconciliation", "Data Products"]
+  focus: ["Finance Analytics", "Data Products"]
   location: "Brazil (Remote)"
   github: "https://github.com/FMPING"
 ---
@@ -53,13 +53,5 @@ Python, Pandas, NumPy, Parquet (PyArrow), Streamlit
 
 ---
 
-## ▶️ How to Run (End-to-End)
 
-### Prerequisites
-- Python 3.12+
-- Git
 
-### 0) Clone the repository
-```bash
-git clone https://github.com/FMPING/revenue-reconciliation-engine.git
-cd revenue-reconciliation-engine
