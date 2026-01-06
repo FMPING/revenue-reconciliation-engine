@@ -110,6 +110,14 @@ filtered = drill[
 # ------------------------
 st.subheader("Variance Drilldown (Actionable)")
 
+st.download_button(
+    "Download (CSV) — High Priority",
+    data=filtered[filtered["priority"] == "High"].to_csv(index=False).encode("utf-8"),
+    file_name="high_priority_variances.csv",
+    mime="text/csv",
+)
+
+
 st.dataframe(
     filtered[
         [
