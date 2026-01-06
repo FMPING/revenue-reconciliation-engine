@@ -79,11 +79,13 @@ df["recommended_action"] = df["variance_type"].apply(recommend_action)
 # Priority scoring
 # -------------------------
 def priority(row):
-    if row["materiality_flag"] == "Material" and row["leakage_usd"] >= 2000:
+    # Finance-friendly materiality
+    if row["leakage_usd"] >= 1000:
         return "High"
-    if row["materiality_flag"] == "Material":
+    if row["leakage_usd"] >= 250:
         return "Medium"
     return "Low"
+
 
 df["priority"] = df.apply(priority, axis=1)
 
